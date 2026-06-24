@@ -274,9 +274,6 @@ section{
 .contact-info:hover {
     transform: scale(1.03);
 }
-.input{
-    position: relative;
-}
 footer{
     bottom: 0;
     left: 0;
