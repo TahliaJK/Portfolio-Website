@@ -214,15 +214,17 @@ section{
 ::-webkit-scrollbar-thumb{
     background: linear-gradient(to bottom, #009dff, #ff00ff);
 }
+
 .projects-grid{
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
+
 .project-card{
     padding: 3rem 2rem;
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -232,23 +234,60 @@ section{
     cursor: pointer;
     transition: 0.3s ease-in-out;
 }
+
 .project-card:hover{
     background-color: black;
     color: white;
-    transform: translateY(-10px)scale(1.02); 
+    transform: translateY(-10px) scale(1.02);
 }
+
 .project-card img{
-    width: 20vw;
+    width: 100%;
+    max-width: 250px;
     border-radius: 1rem;
 }
+
+
+.btn-group{
+    display: flex;
+    flex-direction: row;  
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    border-radius: 3rem;
+    padding: 0.6rem 1.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    text-wrap: nowrap;
+    transition: 0.2s ease-in-out;
+    background: transparent;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
 .project-card:hover .btn{
     border: 2px solid white;
     color: white;
 }
+
 .project-card:hover .btn:hover{
-    border: 2px solid white;
     background-color: white;
     color: black;
+}
+
+
+@media (max-width: 600px){
+    .btn-group{
+        flex-direction: column; 
+        align-items: center;
+    }
 }
 .project-card h3{
     font-size: 2rem;
