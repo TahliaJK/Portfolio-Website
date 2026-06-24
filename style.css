@@ -287,25 +287,6 @@ section{
 .contact-info:hover {
     transform: scale(1.03);
 }
-.input-box input{
-    border-radius: 3rem;
-    border: 2px solid black;
-    padding: 2rem 8rem;
-    font-size: 3rem;
-}
-.input-box input::placeholder{
-    font-size: 3rem;
-}
-.input{
-    position: relative;
-}
-.input i{
-    position: absolute;
-    font-size: 4rem;
-    top: 50%;
-    left: 10px;
-    transform: translate(50%, -50%);
-}
 
 footer{
     bottom: 0;
