@@ -184,9 +184,8 @@ section{
     padding: 3rem;
     display: flex;
     flex-direction: column;
-    align-items: baseline;
-    justify-content: left;
-    cursor: pointer;
+    justify-content: flex-start;
+    height: 100%;
     transition: 0.2s ease-in-out;
 }
 .grid-card:hover{
