@@ -95,7 +95,7 @@ section{
     justify-content: center;
     gap: 10rem;
 }
-.about video{
+.about source{
     width: 30vw;
     border-radius: 50%;
 }
