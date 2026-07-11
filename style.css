@@ -242,8 +242,8 @@ section{
 
 .project-card video,.project-card img{
     width: 100%;
-    max-width: 250px;
-    border-radius: 1rem;
+    max-height: 250px;
+    object-fit: contain;
 }
 
 .btn-group{
